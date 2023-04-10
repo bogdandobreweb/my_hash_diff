@@ -1,10 +1,9 @@
-# frozen_string_literal: true
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in my_hash_diff.gemspec
-gemspec
 
+gemspec
+gem 'my_hash_diff', git: 'https://github.com/bogdandobreweb/my_hash_diff.git'
 gem "rake", "~> 13.0"
 
 gem "rspec", "~> 3.0"
