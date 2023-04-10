@@ -8,6 +8,6 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/bogdandobreweb/my_hash_diff"
   spec.license       = "MIT"
 
-  spec.files         = Dir.glob("{lib}/**/*")
+  spec.files         = Dir.glob("{lib}/my_hash_diff.rb")
   spec.require_paths = ["lib"]
 end
